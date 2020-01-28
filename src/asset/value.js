@@ -1,0 +1,1 @@
+export const values = ['Animal', 'Career', 'Celebrity', 'Dev', 'Explicit', 'Fashion', 'Food', 'History', 'Money', 'Movie', 'Political', 'Religion', 'Science', 'Sport', 'Travel'];
