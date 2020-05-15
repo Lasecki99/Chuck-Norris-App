@@ -3,12 +3,12 @@ import Form from './Form';
 import '../styles/Style.css';
 import JokeContextProvider from '../contexts/JokeContextProvider';
 
-const App = () => {
-   return (
-      <JokeContextProvider>
-         <Form />
-      </JokeContextProvider>
-   );
-}
+const App: React.FC = () => {
+  return (
+    <JokeContextProvider>
+      <Form />
+    </JokeContextProvider>
+  );
+};
 
 export default App;
