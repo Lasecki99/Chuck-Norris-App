@@ -9,11 +9,7 @@ type FormProvider = {
 
 export const JokeContext = createContext({} as FormProvider);
 
-interface JokeContextProps {
-  children: React.ReactNode;
-}
-
-const JokeContextProvider: React.FC<JokeContextProps> = ({ children }) => {
+const JokeContextProvider: React.FC = ({ children }) => {
   const [selectValue, setSelectValue] = useState('animal');
   const [joke, setJoke] = useState('');
 
